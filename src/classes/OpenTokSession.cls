@@ -45,9 +45,9 @@ public with sharing class OpenTokSession {
         dataStringBuilder += '&create_time=';
         dataStringBuilder += create_time;
         dataStringBuilder += '&nonce=';
-        dataStringBuilder += Integer.valueOf(Math.Random());
+        dataStringBuilder += Math.round(Math.random() * (100 - 1)) + 1;
         dataStringBuilder += '&role=';
-        dataStringBuilder += openTokTokenOptions;
+        dataStringBuilder += openTokTokenOptions.role;
         if(expireTime != 0){
         	expireTime = System.now().addDays(Integer.valueOf(expireTime)).getTime() / 1000L;
         }
@@ -62,7 +62,7 @@ public with sharing class OpenTokSession {
                     'Expire time must be in the next 30 days. too large by '+ (expireTime - (now + (60*60*24*30)))/1000);
         }
         // NOTE: Double.toString() would print the value with scientific notation
-        dataStringBuilder += String.valueOf(expireTime);
+        dataStringBuilder += String.valueOf('&expire_time=' + Integer.valueOf(expireTime));
 
         if (data != null) {
             if(data.length() > 1000) {
@@ -99,6 +99,7 @@ public with sharing class OpenTokSession {
                     )
                     .replace('+', '-')
                     .replace('/', '_');
+             System.DEBUG('innerBuilder : ' + innerBuilder);
 
         } catch (Exception e) {
             throw new OpenTokException('Could not generate token, a signing error occurred.', e);

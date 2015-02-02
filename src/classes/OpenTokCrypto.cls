@@ -6,7 +6,7 @@ public with sharing class OpenTokCrypto {
         String algorithmName = 'HMacSHA1';
       	Blob mac = Crypto.generateMac(algorithmName,  Blob.valueOf(data), 
                                                     Blob.valueOf(key));
-      	String macUrl = EncodingUtil.urlEncode(EncodingUtil.base64Encode(mac), 'UTF-8');
+      	String macUrl = EncodingUtil.convertToHex(mac);
         return macUrl;
     }
 }
