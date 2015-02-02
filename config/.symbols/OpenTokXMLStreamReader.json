@@ -1,0 +1,187 @@
+{
+    "properties": [], 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "parseSessions", 
+            "parameters": [
+                {
+                    "type": "XmlStreamReader", 
+                    "name": "reader"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 22, 
+                "line": 9
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "parseSession", 
+            "parameters": [
+                {
+                    "type": "XmlStreamReader", 
+                    "name": "reader"
+                }
+            ], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 46
+            }, 
+            "returnType": "Session", 
+            "type": null
+        }
+    ], 
+    "innerClasses": [
+        {
+            "properties": [
+                {
+                    "modifiers": [], 
+                    "name": "session_id", 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 16, 
+                        "line": 4
+                    }, 
+                    "type": "String"
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "partner_id", 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 16, 
+                        "line": 5
+                    }, 
+                    "type": "String"
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "createdDate", 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 16, 
+                        "line": 6
+                    }, 
+                    "type": "String"
+                }
+            ], 
+            "methods": [], 
+            "innerClasses": [], 
+            "variables": [], 
+            "constructors": [], 
+            "namespace": null, 
+            "name": "Session", 
+            "tableDeclaration": {
+                "type": "Session", 
+                "modifiers": [], 
+                "references": [], 
+                "location": {
+                    "column": 18, 
+                    "line": 3
+                }, 
+                "name": "Session"
+            }, 
+            "key": null, 
+            "id": null, 
+            "externalReferences": []
+        }
+    ], 
+    "variables": [
+        {
+            "type": "XmlStreamReader", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 52, 
+                "line": 9
+            }, 
+            "name": "reader"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 10
+            }, 
+            "name": "Sessions"
+        }, 
+        {
+            "type": "Boolean", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 11
+            }, 
+            "name": "isSafeToGetNextXmlElement"
+        }, 
+        {
+            "type": "Session", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 22, 
+                "line": 16
+            }, 
+            "name": "session"
+        }, 
+        {
+            "type": "XmlStreamReader", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 50, 
+                "line": 46
+            }, 
+            "name": "reader"
+        }, 
+        {
+            "type": "Session", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 47
+            }, 
+            "name": "Session"
+        }, 
+        {
+            "type": "Boolean", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 48
+            }, 
+            "name": "isSafeToGetNextXmlElement"
+        }
+    ], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "OpenTokXMLStreamReader", 
+    "tableDeclaration": {
+        "type": "OpenTokXMLStreamReader", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "OpenTokXMLStreamReader"
+    }, 
+    "key": "01p24000002qy2DAAQ", 
+    "id": "01p24000002qy2DAAQ", 
+    "externalReferences": []
+}

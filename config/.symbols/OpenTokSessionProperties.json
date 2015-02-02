@@ -1,0 +1,63 @@
+{
+    "properties": [
+        {
+            "modifiers": [], 
+            "name": "location", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 4
+            }, 
+            "type": "String"
+        }
+    ], 
+    "methods": [], 
+    "innerClasses": [], 
+    "variables": [
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 41, 
+                "line": 6
+            }, 
+            "name": "location"
+        }
+    ], 
+    "constructors": [
+        {
+            "modifiers": [], 
+            "name": "OpenTokSessionProperties", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "location"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 9, 
+                "line": 6
+            }, 
+            "type": null
+        }
+    ], 
+    "namespace": null, 
+    "name": "OpenTokSessionProperties", 
+    "tableDeclaration": {
+        "type": "OpenTokSessionProperties", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "OpenTokSessionProperties"
+    }, 
+    "key": "01p24000002qwSEAAY", 
+    "id": "01p24000002qwSEAAY", 
+    "externalReferences": []
+}

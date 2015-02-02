@@ -1,0 +1,124 @@
+{
+    "properties": [
+        {
+            "modifiers": [], 
+            "name": "sessionId", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 6
+            }, 
+            "type": "String"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "apiKey", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 7
+            }, 
+            "type": "Integer"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "apiSecret", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 8
+            }, 
+            "type": "String"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "properties", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 34, 
+                "line": 9
+            }, 
+            "type": "OpenTokSessionProperties"
+        }
+    ], 
+    "methods": [], 
+    "innerClasses": [], 
+    "variables": [
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 31, 
+                "line": 11
+            }, 
+            "name": "sessionId"
+        }, 
+        {
+            "type": "Integer", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 50, 
+                "line": 11
+            }, 
+            "name": "apiKey"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 65, 
+                "line": 11
+            }, 
+            "name": "apiSecret"
+        }
+    ], 
+    "constructors": [
+        {
+            "modifiers": [], 
+            "name": "OpenTokSession", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "sessionId"
+                }, 
+                {
+                    "type": "Integer", 
+                    "name": "apiKey"
+                }, 
+                {
+                    "type": "String", 
+                    "name": "apiSecret"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 9, 
+                "line": 11
+            }, 
+            "type": null
+        }
+    ], 
+    "namespace": null, 
+    "name": "OpenTokSession", 
+    "tableDeclaration": {
+        "type": "OpenTokSession", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 5
+        }, 
+        "name": "OpenTokSession"
+    }, 
+    "key": "01p24000002qwXUAAY", 
+    "id": "01p24000002qwXUAAY", 
+    "externalReferences": []
+}

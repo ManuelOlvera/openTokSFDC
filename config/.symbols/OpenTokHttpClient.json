@@ -1,0 +1,173 @@
+{
+    "properties": [
+        {
+            "modifiers": [], 
+            "name": "apiUrl", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 23, 
+                "line": 2
+            }, 
+            "type": "String"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "apiKey", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 27, 
+                "line": 3
+            }, 
+            "type": "Integer"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "apiSecret", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 4
+            }, 
+            "type": "String"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "http", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 5
+            }, 
+            "type": "Http"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "httpRequest", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 6
+            }, 
+            "type": "HttpRequest"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "httpResponse", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 7
+            }, 
+            "type": "HttpResponse"
+        }
+    ], 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "createSession", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 18
+            }, 
+            "returnType": "String", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "setHttpRequest", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 15, 
+                "line": 34
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ], 
+    "innerClasses": [], 
+    "variables": [
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 34, 
+                "line": 9
+            }, 
+            "name": "apiUrl"
+        }, 
+        {
+            "type": "Integer", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 50, 
+                "line": 9
+            }, 
+            "name": "apiKey"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 65, 
+                "line": 9
+            }, 
+            "name": "apiSecret"
+        }
+    ], 
+    "constructors": [
+        {
+            "modifiers": [], 
+            "name": "OpenTokHttpClient", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "apiUrl"
+                }, 
+                {
+                    "type": "Integer", 
+                    "name": "apiKey"
+                }, 
+                {
+                    "type": "String", 
+                    "name": "apiSecret"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 9, 
+                "line": 9
+            }, 
+            "type": null
+        }
+    ], 
+    "namespace": null, 
+    "name": "OpenTokHttpClient", 
+    "tableDeclaration": {
+        "type": "OpenTokHttpClient", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "OpenTokHttpClient"
+    }, 
+    "key": "01p24000002qwzsAAA", 
+    "id": "01p24000002qwzsAAA", 
+    "externalReferences": []
+}
