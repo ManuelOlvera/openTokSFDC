@@ -4,9 +4,9 @@
       // Initialize API key, session, and token...
       // Think of a session as a room, and a token as the key to get in to the room
       // Sessions and tokens are generated on your server and passed down to the client
-      var apiKey = "45141552";
-      var sessionId = "1_MX40NTE0MTU1Mn5-MTQyMjYxOTgyMTAwMn45MUMyNnlUVVpVSEQxdEtsbWZnbjBwQ3Z-fg";
-      var token = "T1==cGFydG5lcl9pZD00NTE0MTU1MiZzaWc9OTE0MjJiZjgzYjIzODI4NmIwNjRmZjdmYmRiMDExYTRjZTA0M2M0YTpyb2xlPXB1Ymxpc2hlciZzZXNzaW9uX2lkPTFfTVg0ME5URTBNVFUxTW41LU1UUXlNall4T1RneU1UQXdNbjQ1TVVNeU5ubFVWVnBWU0VReGRFdHNiV1puYmpCd1EzWi1mZyZjcmVhdGVfdGltZT0xNDIyNjIzNjg2Jm5vbmNlPTAuODExMDM3MzEzNzU1MDM4";
+      var apiKey = "XXXXXX";
+      var sessionId = "XXXXXXXX-MTQyMjYxOTgyMTAwMn45MUMyNnlUVVpVSEQxdEtsbWZnbjBwQ3Z-fg";
+      var token = "T1==XXXXXXXX";
 
       //Initialize session, set up event listeners, and connect
       /*var session = OT.initSession(apiKey, sessionId);
